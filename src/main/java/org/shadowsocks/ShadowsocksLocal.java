@@ -20,8 +20,8 @@ import org.slf4j.LoggerFactory;
 
 public class ShadowsocksLocal {
 
-    private static Logger logger = LoggerFactory.getLogger(ShadowSocksServer.class);
-    private Config config;
+    private static final Logger logger = LoggerFactory.getLogger(ShadowSocksServer.class);
+    private final Config config;
     public ShadowsocksLocal(Config config){
         this.config = config;
     }
